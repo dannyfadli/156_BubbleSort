@@ -50,3 +50,10 @@ void bubblesortArraay() {			//prosedur untuk mengurutkan array dengan metode bub
 	}
 
 }
+
+int main() {
+	input();				//Memanggil read
+	bubblesortArraay();		//Memanggil bubblesertaaray
+	display();				//Memmangil display()
+	return 0;
+}
