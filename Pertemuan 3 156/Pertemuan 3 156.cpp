@@ -10,7 +10,13 @@ void input() {				//prosedure untuk input
 		cin >> n;			//input dari pengguna
 		if (n <= 20)		//jika n kurang dari atau sama dengan 20
 			break;			//keluar dari loop
+		else {				//jika n Lebih dari 20
+			cout << "\nArray dapat mempunyai maksimal 20 elemen. \n";   //Output ke layar
 
+		}
 	}
+	cout << endl;                            //Ouput Baris kosong
+	cout << "====================" << endl;  //output ke Layar
+	cout << "Maskan elemmen Array" << endl;  //Output ke layar
 
 }
