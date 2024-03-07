@@ -19,4 +19,8 @@ void input() {				//prosedure untuk input
 	cout << "====================" << endl;  //output ke Layar
 	cout << "Maskan elemmen Array" << endl;  //Output ke layar
 
+	for (int i = 0; i < n; i++) {			//looping dengan i dari 0 hingga n-1
+		cout << "Data ke-" << (i + 1) << ": "; //Output ke Layar
+		cin >> a[i];						//input dari pengguna 
+	}
 }
